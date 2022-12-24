@@ -1,0 +1,41 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #ecf0f3;
+   
+}
+.parent_calc{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child_calc{
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    background-color: #ecf0f3;
+}
+input{
+    grid-column: span 4;
+    background-color: #cbe4f7;
+    box-shadow: inset #ecf0f3;
+    height: 50px;
+    width: 210px;
+    text-align: end;
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button{
+    height: 50px;
+    width: 60px;
+    background-color: #afc8db;
+    font-size: 15px;
+
+}
+.Equalto{
+    width: 110px;
+}
